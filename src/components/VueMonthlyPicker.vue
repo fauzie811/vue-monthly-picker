@@ -2,7 +2,7 @@
   <div class="vue-monthly-picker">
     <div class="month-picker-wrapper"
          :class="{ 'active visible':showMenu }">
-      <div class="month-year-label picker" type="text" autocomplete="off" tabindex="0" @click="openMenu">
+      <div class="month-year-label picker" tabindex="0" @click="openMenu">
           <div @click="openMenu"
             class="month-year-display"
             :disabled="disabled"
